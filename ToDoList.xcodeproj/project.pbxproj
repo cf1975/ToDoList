@@ -19,6 +19,7 @@
 		AA6649CE1997EDA9007B2465 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6649B61997EDA9007B2465 /* UIKit.framework */; };
 		AA6649D61997EDA9007B2465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA6649D41997EDA9007B2465 /* InfoPlist.strings */; };
 		AA6649D81997EDA9007B2465 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6649D71997EDA9007B2465 /* ToDoListTests.m */; };
+		AA6649E21997F198007B2465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6649E11997F198007B2465 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AA6649D31997EDA9007B2465 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		AA6649D51997EDA9007B2465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA6649D71997EDA9007B2465 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		AA6649E11997F198007B2465 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				AA6649C11997EDA9007B2465 /* XYZAppDelegate.h */,
 				AA6649C21997EDA9007B2465 /* XYZAppDelegate.m */,
+				AA6649E11997F198007B2465 /* Main.storyboard */,
 				AA6649C41997EDA9007B2465 /* Images.xcassets */,
 				AA6649B91997EDA9007B2465 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6649E21997F198007B2465 /* Main.storyboard in Resources */,
 				AA6649BD1997EDA9007B2465 /* InfoPlist.strings in Resources */,
 				AA6649C51997EDA9007B2465 /* Images.xcassets in Resources */,
 			);
